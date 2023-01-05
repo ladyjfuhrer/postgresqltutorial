@@ -1,0 +1,9 @@
+[Unit]
+Description=dosya tarayici
+
+[Service]
+Type=simple
+ExecStart=/home/aleyna/dosyatarayici.sh
+
+[Install]
+WantedBy=multi-user.target
